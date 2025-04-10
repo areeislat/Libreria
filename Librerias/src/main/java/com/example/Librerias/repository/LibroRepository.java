@@ -37,4 +37,21 @@ public class LibroRepository {
         return null;
     }
 
+    // TODO BUSCAR LIBRO POR ISBN
+
+    // BUSCAR POR AUTOR
+
+    public Libro actualizar(Libro lib){
+
+        int id = 0;
+        int idPosicion = 0;
+
+        for(int i = 0;i<ListaLibros.size();i++){
+
+            if(listaLibros.get(i).getId() == lib.getId()){
+                id = lib.getId();
+                idPosicion = i;
+            }
+        }
+    }
 }

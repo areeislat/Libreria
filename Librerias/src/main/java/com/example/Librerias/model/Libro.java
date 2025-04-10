@@ -11,7 +11,6 @@ import lombok.Data;
 
 public class Libro {
 
-
     private int id;
     private String isbn;
     private String titulo;
